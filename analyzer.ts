@@ -1,4 +1,9 @@
-import { type TraceEvent, type Operation, type FileStats, type Statistics } from "./types.ts";
+import {
+  type FileStats,
+  type Operation,
+  type Statistics,
+  type TraceEvent,
+} from "./types.ts";
 
 /**
  * Extract file extension from a file path
@@ -55,14 +60,22 @@ export function analyzeTrace(events: TraceEvent[]): Statistics {
 
       // Increment operation stats
       if (!stats.operationTimes[operation]) {
-        stats.operationTimes[operation] = { totalTime: 0, count: 0, averageTime: 0 };
+        stats.operationTimes[operation] = {
+          totalTime: 0,
+          count: 0,
+          averageTime: 0,
+        };
       }
       stats.operationTimes[operation].totalTime += event.dur;
       stats.operationTimes[operation].count++;
 
       // Increment category stats
       if (!stats.categoryTimes[event.cat]) {
-        stats.categoryTimes[event.cat] = { totalTime: 0, count: 0, averageTime: 0 };
+        stats.categoryTimes[event.cat] = {
+          totalTime: 0,
+          count: 0,
+          averageTime: 0,
+        };
       }
       stats.categoryTimes[event.cat].totalTime += event.dur;
       stats.categoryTimes[event.cat].count++;
@@ -100,9 +113,7 @@ export function analyzeTrace(events: TraceEvent[]): Statistics {
         }
         stats.filesByType[ext]++;
       }
-    }
-
-    // Handle begin events (ph="B")
+    } // Handle begin events (ph="B")
     else if (event.ph === "B") {
       const filePath = getFilePath(event);
       const key = `${event.name}:${filePath || "unknown"}`;
@@ -114,9 +125,7 @@ export function analyzeTrace(events: TraceEvent[]): Statistics {
       // Use the timestamp as a unique identifier for this specific begin event
       const timeKey = event.ts.toString();
       beginEvents[key][timeKey] = event;
-    }
-
-    // Handle end events (ph="E")
+    } // Handle end events (ph="E")
     else if (event.ph === "E") {
       const filePath = getFilePath(event);
       const key = `${event.name}:${filePath || "unknown"}`;
@@ -135,14 +144,22 @@ export function analyzeTrace(events: TraceEvent[]): Statistics {
           // Update operation stats
           const operation = event.name;
           if (!stats.operationTimes[operation]) {
-            stats.operationTimes[operation] = { totalTime: 0, count: 0, averageTime: 0 };
+            stats.operationTimes[operation] = {
+              totalTime: 0,
+              count: 0,
+              averageTime: 0,
+            };
           }
           stats.operationTimes[operation].totalTime += duration;
           stats.operationTimes[operation].count++;
 
           // Update category stats
           if (!stats.categoryTimes[event.cat]) {
-            stats.categoryTimes[event.cat] = { totalTime: 0, count: 0, averageTime: 0 };
+            stats.categoryTimes[event.cat] = {
+              totalTime: 0,
+              count: 0,
+              averageTime: 0,
+            };
           }
           stats.categoryTimes[event.cat].totalTime += duration;
           stats.categoryTimes[event.cat].count++;
@@ -195,17 +212,18 @@ export function analyzeTrace(events: TraceEvent[]): Statistics {
 
   // Calculate average time for module resolution
   if (stats.moduleResolution.totalCount > 0) {
-    stats.moduleResolution.averageTime =
-      stats.moduleResolution.totalTime / stats.moduleResolution.totalCount;
+    stats.moduleResolution.averageTime = stats.moduleResolution.totalTime /
+      stats.moduleResolution.totalCount;
   }
 
   // Determine total build time (max timestamp - min timestamp)
   const timestamps = events
-    .filter(e => e.ph !== "M") // Skip metadata events
-    .map(e => e.ph === "E" ? e.ts : e.ts + (e.dur || 0));
+    .filter((e) => e.ph !== "M") // Skip metadata events
+    .map((e) => e.ph === "E" ? e.ts : e.ts + (e.dur || 0));
 
   if (timestamps.length > 0) {
-    stats.totalTime = Math.max(...timestamps) - Math.min(...events.map(e => e.ts));
+    stats.totalTime = Math.max(...timestamps) -
+      Math.min(...events.map((e) => e.ts));
   }
 
   // Set total files count

@@ -6,5 +6,11 @@
     "analyze:example:json": "deno run main.ts --input=example_data/trace.json --output=./output",
     "test": "deno test",
     "check": "deno check main.ts analyzer.ts types.ts"
+  },
+  "imports": {
+    "@std/fmt": "jsr:@std/fmt@^1.0.6",
+    "@std/fs": "jsr:@std/fs@1.0.14",
+    "@std/cli": "jsr:@std/cli@1.0.14",
+    "@std/path": "jsr:@std/path@1.0.8"
   }
 }

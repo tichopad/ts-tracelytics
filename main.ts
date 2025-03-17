@@ -1,32 +1,45 @@
 #!/usr/bin/env deno
 
-import { parse } from "https://deno.land/std@0.224.0/flags/mod.ts";
-import { resolve, basename } from "https://deno.land/std@0.224.0/path/mod.ts";
-import { ensureDir } from "https://deno.land/std@0.224.0/fs/ensure_dir.ts";
-import { type TraceEvent, type Statistics, type Operation, type FileStats } from "./types.ts";
+import { parseArgs } from "@std/cli";
+import { ensureDir } from "@std/fs/ensure-dir";
+import { basename, resolve } from "@std/path";
+import { bold, cyan, green, yellow, red, magenta, blue, gray, reset } from "@std/fmt/colors";
+import { format } from "@std/fmt/duration";
 import { analyzeTrace } from "./analyzer.ts";
+import { type Statistics, type TraceEvent } from "./types.ts";
+
+interface Args {
+  input?: string;
+  output?: string;
+  help?: boolean;
+  h?: boolean;
+  _: (string | number)[];
+}
 
 // Parse command line arguments
-const args = parse(Deno.args, {
+const args = parseArgs(Deno.args, {
   string: ["input", "output"],
-  default: {},
   alias: {
     i: "input",
     o: "output",
     h: "help",
   },
-});
+}) as Args;
 
 // Show help
-if (args.help) {
+if (args.help || args.h) {
   console.log("TypeScript Build Trace Analyzer");
   console.log("");
   console.log("Usage:");
-  console.log("  deno run main.ts --input=<trace_file> [--output=<output_directory>]");
+  console.log(
+    "  deno run main.ts --input=<trace_file> [--output=<output_directory>]",
+  );
   console.log("");
   console.log("Options:");
   console.log("  --input, -i    Path to the TypeScript trace file (required)");
-  console.log("  --output, -o   Directory to output statistics file (default: prints to console)");
+  console.log(
+    "  --output, -o   Directory to output statistics file (default: prints to console)",
+  );
   console.log("  --help, -h     Show this help message");
   Deno.exit(0);
 }
@@ -42,21 +55,35 @@ if (!args.input) {
  * Format duration in microseconds to a human-readable format
  */
 function formatDuration(microseconds: number): string {
-  if (microseconds < 1000) {
-    return `${microseconds.toFixed(2)}µs`;
-  } else if (microseconds < 1000000) {
-    return `${(microseconds / 1000).toFixed(2)}ms`;
-  } else {
-    return `${(microseconds / 1000000).toFixed(2)}s`;
+  const ms = microseconds / 1000;
+  const seconds = Math.floor(ms / 1000);
+  const minutes = Math.floor(seconds / 60);
+  const remainingSeconds = seconds % 60;
+  const remainingMs = Math.floor(ms % 1000);
+
+  const parts: string[] = [];
+  if (minutes > 0) {
+    parts.push(`${minutes}m`);
   }
+  if (remainingSeconds > 0 || minutes > 0) {
+    parts.push(`${remainingSeconds}s`);
+  }
+  if (remainingMs > 0 || parts.length === 0) {
+    parts.push(`${remainingMs}ms`);
+  }
+
+  return parts.join(" ");
 }
 
 /**
  * Formats a key-value table for terminal output
  */
-function formatTable(data: Record<string, { value: string; color?: string }>, title: string): string {
+function formatTable(
+  data: Record<string, { value: string; color?: (str: string) => string }>,
+  title: string,
+): string {
   const keys = Object.keys(data);
-  const maxKeyLength = Math.max(...keys.map(k => k.length));
+  const maxKeyLength = Math.max(...keys.map((k) => k.length));
 
   let output = `\n${title}\n${"=".repeat(title.length)}\n`;
 
@@ -65,7 +92,7 @@ function formatTable(data: Record<string, { value: string; color?: string }>, ti
     const paddedKey = key.padEnd(maxKeyLength);
 
     if (color) {
-      output += `${paddedKey}: ${color}${value}\x1b[0m\n`;
+      output += `${paddedKey}: ${color(value)}${reset("")}\n`;
     } else {
       output += `${paddedKey}: ${value}\n`;
     }
@@ -78,42 +105,31 @@ function formatTable(data: Record<string, { value: string; color?: string }>, ti
  * Print statistics to the terminal in a readable format
  */
 function printTerminalStats(stats: Statistics): void {
-  // Terminal colors
-  const colors = {
-    cyan: "\x1b[36m",
-    green: "\x1b[32m",
-    yellow: "\x1b[33m",
-    red: "\x1b[31m",
-    magenta: "\x1b[35m",
-    blue: "\x1b[34m",
-    gray: "\x1b[90m",
-    reset: "\x1b[0m",
-    bold: "\x1b[1m",
-  };
-
   // Title
-  console.log(`\n${colors.bold}${colors.cyan}TypeScript Build Trace Analysis${colors.reset}\n`);
+  console.log(
+    `\n${bold("")}${cyan("TypeScript Build Trace Analysis")}${reset("")}\n`,
+  );
 
   // Overall statistics
-  const overallStats: Record<string, { value: string; color?: string }> = {
+  const overallStats: Record<string, { value: string; color?: (str: string) => string }> = {
     "Total build time": {
       value: formatDuration(stats.totalTime),
-      color: colors.green
+      color: green,
     },
     "Total files processed": {
       value: stats.totalFiles.toString(),
-      color: colors.blue
+      color: blue,
     },
     "Total unique operations": {
       value: Object.keys(stats.operationTimes).length.toString(),
-      color: colors.magenta
-    }
+      color: magenta,
+    },
   };
 
   console.log(formatTable(overallStats, "Overall Statistics"));
 
   // Top 5 slowest operations
-  console.log(`\n${colors.bold}Top 5 Slowest Operations${colors.reset}`);
+  console.log(`\n${bold("")}Top 5 Slowest Operations${reset("")}`);
   console.log("=======================");
 
   const sortedOperations = Object.entries(stats.operationTimes)
@@ -121,7 +137,7 @@ function printTerminalStats(stats: Statistics): void {
     .slice(0, 5);
 
   for (const [operation, stats] of sortedOperations) {
-    console.log(`${colors.yellow}${operation}${colors.reset}`);
+    console.log(`${yellow(operation)}${reset("")}`);
     console.log(`  Total time: ${formatDuration(stats.totalTime)}`);
     console.log(`  Count: ${stats.count}`);
     console.log(`  Average time: ${formatDuration(stats.averageTime)}`);
@@ -129,14 +145,18 @@ function printTerminalStats(stats: Statistics): void {
   }
 
   // Top 5 slowest files
-  console.log(`\n${colors.bold}Top 5 Slowest Files${colors.reset}`);
+  console.log(`\n${bold("")}Top 5 Slowest Files${reset("")}`);
   console.log("===================");
 
   for (let i = 0; i < Math.min(5, stats.slowestFiles.length); i++) {
     const file = stats.slowestFiles[i];
     const filename = file.path.split("/").pop() || file.path;
-    console.log(`${i + 1}. ${colors.red}${filename}${colors.reset} (${formatDuration(file.totalTime)})`);
-    console.log(`   ${colors.gray}${file.path}${colors.reset}`);
+    console.log(
+      `${i + 1}. ${red(filename)}${reset("")} (${
+        formatDuration(file.totalTime)
+      })`,
+    );
+    console.log(`   ${gray(file.path)}${reset("")}`);
 
     // Top 3 operations for this file
     const fileOps = Object.entries(file.operations)
@@ -157,35 +177,37 @@ function printTerminalStats(stats: Statistics): void {
     .sort(([, a], [, b]) => b - a);
 
   if (fileTypes.length > 0) {
-    console.log(`\n${colors.bold}File Types${colors.reset}`);
+    console.log(`\n${bold("")}File Types${reset("")}`);
     console.log("==========");
 
     for (const [ext, count] of fileTypes) {
-      console.log(`${colors.blue}.${ext}${colors.reset}: ${count} files`);
+      console.log(`${blue("." + ext)}${reset("")}: ${count} files`);
     }
   }
 
   // Module resolution
   if (stats.moduleResolution.totalCount > 0) {
-    const moduleStats: Record<string, { value: string; color?: string }> = {
+    const moduleStats: Record<string, { value: string; color?: (str: string) => string }> = {
       "Total modules resolved": {
         value: stats.moduleResolution.totalCount.toString(),
-        color: colors.cyan
+        color: cyan,
       },
       "Total resolution time": {
         value: formatDuration(stats.moduleResolution.totalTime),
-        color: colors.yellow
+        color: yellow,
       },
       "Average resolution time": {
         value: formatDuration(stats.moduleResolution.averageTime),
-        color: colors.green
-      }
+        color: green,
+      },
     };
 
     console.log(formatTable(moduleStats, "Module Resolution"));
   }
 
-  console.log(`\n${colors.gray}Note: All times are in microseconds (µs) unless otherwise specified${colors.reset}\n`);
+  console.log(
+    `\n${gray("Note: All times are in microseconds (µs) unless otherwise specified")}${reset("")}\n`,
+  );
 }
 
 async function main() {
@@ -214,7 +236,7 @@ async function main() {
       // Write statistics to file
       await Deno.writeTextFile(
         outputPath,
-        JSON.stringify(statistics, null, 2)
+        JSON.stringify(statistics, null, 2),
       );
 
       console.log(`Statistics written to: ${outputPath}`);
@@ -222,8 +244,12 @@ async function main() {
       // Print statistics to terminal in a readable format
       printTerminalStats(statistics);
     }
-  } catch (error) {
-    console.error(`Error: ${error.message}`);
+  } catch (error: unknown) {
+    if (error instanceof Error) {
+      console.error(`Error: ${error.message}`);
+    } else {
+      console.error(`Error: ${String(error)}`);
+    }
     Deno.exit(1);
   }
 }
