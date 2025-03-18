@@ -90,3 +90,4 @@ Potential future improvements include:
 3. More detailed analysis of specific build phases
 4. Recommendations for optimizing build performance based on analysis
 5. Integration with CI/CD pipelines for automatic build performance monitoring
+6. Support for Project References
