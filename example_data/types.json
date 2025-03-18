@@ -217,7 +217,7 @@
     "symbolName": "IArguments",
     "recursionId": 57,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 402, "character": 2 },
       "end": { "line": 408, "character": 2 }
     },
@@ -237,7 +237,7 @@
     "instantiatedType": 65,
     "typeArguments": [66],
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 1320, "character": 2 },
       "end": { "line": 1504, "character": 2 }
     },
@@ -248,7 +248,7 @@
     "symbolName": "T",
     "recursionId": 60,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 1322, "character": 17 },
       "end": { "line": 1322, "character": 18 }
     },
@@ -259,7 +259,7 @@
     "symbolName": "Array",
     "recursionId": 59,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 1320, "character": 2 },
       "end": { "line": 1504, "character": 2 }
     },
@@ -270,7 +270,7 @@
     "symbolName": "Object",
     "recursionId": 61,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 121, "character": 2 },
       "end": { "line": 153, "character": 2 }
     },
@@ -281,7 +281,7 @@
     "symbolName": "Function",
     "recursionId": 62,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 270, "character": 39 },
       "end": { "line": 307, "character": 2 }
     },
@@ -292,7 +292,7 @@
     "symbolName": "CallableFunction",
     "recursionId": 63,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 329, "character": 136 },
       "end": { "line": 366, "character": 2 }
     },
@@ -303,7 +303,7 @@
     "symbolName": "NewableFunction",
     "recursionId": 64,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 366, "character": 2 },
       "end": { "line": 402, "character": 2 }
     },
@@ -314,7 +314,7 @@
     "symbolName": "String",
     "recursionId": 65,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 408, "character": 2 },
       "end": { "line": 532, "character": 2 }
     },
@@ -325,7 +325,7 @@
     "symbolName": "Number",
     "recursionId": 66,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 557, "character": 41 },
       "end": { "line": 586, "character": 2 }
     },
@@ -336,7 +336,7 @@
     "symbolName": "Boolean",
     "recursionId": 67,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 544, "character": 39 },
       "end": { "line": 549, "character": 2 }
     },
@@ -348,7 +348,7 @@
     "recursionId": 68,
     "instantiatedType": 75,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 991, "character": 2 },
       "end": { "line": 1023, "character": 2 }
     },
@@ -359,7 +359,7 @@
     "symbolName": "RegExp",
     "recursionId": 68,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 991, "character": 2 },
       "end": { "line": 1023, "character": 2 }
     },
@@ -372,7 +372,7 @@
     "instantiatedType": 65,
     "typeArguments": [1],
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 1320, "character": 2 },
       "end": { "line": 1504, "character": 2 }
     },
@@ -385,7 +385,7 @@
     "instantiatedType": 65,
     "typeArguments": [2],
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 1320, "character": 2 },
       "end": { "line": 1504, "character": 2 }
     },
@@ -398,7 +398,7 @@
     "instantiatedType": 79,
     "typeArguments": [80],
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 1182, "character": 24 },
       "end": { "line": 1313, "character": 2 }
     },
@@ -409,7 +409,7 @@
     "symbolName": "T",
     "recursionId": 70,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 1188, "character": 25 },
       "end": { "line": 1188, "character": 26 }
     },
@@ -420,7 +420,7 @@
     "symbolName": "ReadonlyArray",
     "recursionId": 69,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 1182, "character": 24 },
       "end": { "line": 1313, "character": 2 }
     },
@@ -433,7 +433,7 @@
     "instantiatedType": 79,
     "typeArguments": [1],
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 1182, "character": 24 },
       "end": { "line": 1313, "character": 2 }
     },
@@ -446,7 +446,7 @@
     "instantiatedType": 83,
     "typeArguments": [84],
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 1673, "character": 29 },
       "end": { "line": 1678, "character": 25 }
     },
@@ -457,7 +457,7 @@
     "symbolName": "T",
     "recursionId": 72,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 1678, "character": 20 },
       "end": { "line": 1678, "character": 21 }
     },
@@ -468,7 +468,7 @@
     "symbolName": "ThisType",
     "recursionId": 71,
     "firstDeclaration": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "start": { "line": 1673, "character": 29 },
       "end": { "line": 1678, "character": 25 }
     },

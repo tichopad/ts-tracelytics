@@ -33,7 +33,7 @@
     "ts": 146480.077,
     "name": "createProgram",
     "args": {
-      "configFilePath": "/home/michael/Projects/example-monorepo/components/fancy-button/tsconfig.json"
+      "configFilePath": "/home/example/project/components/fancy-button/tsconfig.json"
     }
   },
   {
@@ -44,7 +44,7 @@
     "ts": 149825.609,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/configs/typescript/types/css-modules.d.ts"
+      "path": "/home/example/project/configs/typescript/types/css-modules.d.ts"
     }
   },
   {
@@ -55,7 +55,7 @@
     "ts": 156210.704,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/configs/typescript/types/css-modules.d.ts"
+      "path": "/home/example/project/configs/typescript/types/css-modules.d.ts"
     }
   },
   {
@@ -67,7 +67,7 @@
     "name": "findSourceFile",
     "dur": 9861.486999999994,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/configs/typescript/types/css-modules.d.ts",
+      "fileName": "/home/example/project/configs/typescript/types/css-modules.d.ts",
       "fileIncludeKind": "RootFile"
     }
   },
@@ -79,7 +79,7 @@
     "ts": 158992.221,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/components/fancy-button/src/FancyButton.tsx"
+      "path": "/home/example/project/components/fancy-button/src/FancyButton.tsx"
     }
   },
   {
@@ -90,7 +90,7 @@
     "ts": 167002.963,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/components/fancy-button/src/FancyButton.tsx"
+      "path": "/home/example/project/components/fancy-button/src/FancyButton.tsx"
     }
   },
   {
@@ -102,7 +102,7 @@
     "name": "resolveModuleNamesWorker",
     "dur": 15890.123000000021,
     "args": {
-      "containingFileName": "/home/michael/Projects/example-monorepo/components/fancy-button/src/FancyButton.tsx"
+      "containingFileName": "/home/example/project/components/fancy-button/src/FancyButton.tsx"
     }
   },
   {
@@ -113,7 +113,7 @@
     "ts": 188911.463,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/jsx-runtime.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/jsx-runtime.d.ts"
     }
   },
   {
@@ -124,7 +124,7 @@
     "ts": 192637.899,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/jsx-runtime.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/jsx-runtime.d.ts"
     }
   },
   {
@@ -135,7 +135,7 @@
     "ts": 195045.79,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts"
     }
   },
   {
@@ -146,7 +146,7 @@
     "ts": 292990.855,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts"
     }
   },
   {
@@ -157,7 +157,7 @@
     "ts": 294972.24799999996,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/global.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/global.d.ts"
     }
   },
   {
@@ -168,7 +168,7 @@
     "ts": 298043.843,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/global.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/global.d.ts"
     }
   },
   {
@@ -180,7 +180,7 @@
     "name": "resolveModuleNamesWorker",
     "dur": 2610.237999999954,
     "args": {
-      "containingFileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts"
+      "containingFileName": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts"
     }
   },
   {
@@ -191,7 +191,7 @@
     "ts": 306834.788,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/csstype@3.1.3/node_modules/csstype/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/csstype@3.1.3/node_modules/csstype/index.d.ts"
     }
   },
   {
@@ -202,7 +202,7 @@
     "ts": 447458.67600000004,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/csstype@3.1.3/node_modules/csstype/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/csstype@3.1.3/node_modules/csstype/index.d.ts"
     }
   },
   {
@@ -214,7 +214,7 @@
     "name": "findSourceFile",
     "dur": 152340.619,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/csstype@3.1.3/node_modules/csstype/index.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/csstype@3.1.3/node_modules/csstype/index.d.ts",
       "fileIncludeKind": "Import"
     }
   },
@@ -226,7 +226,7 @@
     "ts": 454779.30199999997,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+prop-types@15.7.12/node_modules/@types/prop-types/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+prop-types@15.7.12/node_modules/@types/prop-types/index.d.ts"
     }
   },
   {
@@ -237,7 +237,7 @@
     "ts": 457144.925,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+prop-types@15.7.12/node_modules/@types/prop-types/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+prop-types@15.7.12/node_modules/@types/prop-types/index.d.ts"
     }
   },
   {
@@ -249,7 +249,7 @@
     "name": "findSourceFile",
     "dur": 263236.93200000003,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts",
       "fileIncludeKind": "Import"
     }
   },
@@ -262,7 +262,7 @@
     "name": "findSourceFile",
     "dur": 271934.13300000003,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/jsx-runtime.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/jsx-runtime.d.ts",
       "fileIncludeKind": "Import"
     }
   },
@@ -274,7 +274,7 @@
     "ts": 458839.182,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/presets/fireworks/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/presets/fireworks/index.d.ts"
     }
   },
   {
@@ -285,7 +285,7 @@
     "ts": 459127.971,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/presets/fireworks/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/presets/fireworks/index.d.ts"
     }
   },
   {
@@ -297,7 +297,7 @@
     "name": "resolveModuleNamesWorker",
     "dur": 3458.557999999961,
     "args": {
-      "containingFileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/presets/fireworks/index.d.ts"
+      "containingFileName": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/presets/fireworks/index.d.ts"
     }
   },
   {
@@ -308,7 +308,7 @@
     "ts": 464833.65199999994,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/index.d.ts"
     }
   },
   {
@@ -319,7 +319,7 @@
     "ts": 501363.02,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/index.d.ts"
     }
   },
   {
@@ -330,7 +330,7 @@
     "ts": 503344.798,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/global.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/global.d.ts"
     }
   },
   {
@@ -341,7 +341,7 @@
     "ts": 505348.294,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/global.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/global.d.ts"
     }
   },
   {
@@ -353,7 +353,7 @@
     "name": "findSourceFile",
     "dur": 45274.42599999998,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/index.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/index.d.ts",
       "fileIncludeKind": "Import"
     }
   },
@@ -365,7 +365,7 @@
     "ts": 508413.493,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/index.d.ts"
     }
   },
   {
@@ -376,7 +376,7 @@
     "ts": 509698.022,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/index.d.ts"
     }
   },
   {
@@ -387,7 +387,7 @@
     "ts": 513829.36900000006,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+canvas-confetti@1.6.4/node_modules/@types/canvas-confetti/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+canvas-confetti@1.6.4/node_modules/@types/canvas-confetti/index.d.ts"
     }
   },
   {
@@ -398,7 +398,7 @@
     "ts": 514865.579,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+canvas-confetti@1.6.4/node_modules/@types/canvas-confetti/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+canvas-confetti@1.6.4/node_modules/@types/canvas-confetti/index.d.ts"
     }
   },
   {
@@ -409,7 +409,7 @@
     "ts": 516162.684,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/normalization.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/normalization.d.ts"
     }
   },
   {
@@ -420,7 +420,7 @@
     "ts": 516344.18500000006,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/normalization.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/normalization.d.ts"
     }
   },
   {
@@ -432,7 +432,7 @@
     "name": "findSourceFile",
     "dur": 9098.809000000008,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/index.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/index.d.ts",
       "fileIncludeKind": "Import"
     }
   },
@@ -445,7 +445,7 @@
     "name": "findSourceFile",
     "dur": 59653.12899999996,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/presets/fireworks/index.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/presets/fireworks/index.d.ts",
       "fileIncludeKind": "Import"
     }
   },
@@ -458,7 +458,7 @@
     "name": "findSourceFile",
     "dur": 358683.1560000001,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/components/fancy-button/src/FancyButton.tsx",
+      "fileName": "/home/example/project/components/fancy-button/src/FancyButton.tsx",
       "fileIncludeKind": "RootFile"
     }
   },
@@ -480,7 +480,7 @@
     "ts": 534661.9439999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.dom.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.dom.d.ts"
     }
   },
   {
@@ -491,7 +491,7 @@
     "ts": 699875.5129999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.dom.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.dom.d.ts"
     }
   },
   {
@@ -503,7 +503,7 @@
     "name": "findSourceFile",
     "dur": 185114.201,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.dom.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.dom.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibFile"
     }
@@ -516,7 +516,7 @@
     "ts": 713428.2779999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.d.ts"
     }
   },
   {
@@ -527,7 +527,7 @@
     "ts": 713710.189,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.d.ts"
     }
   },
   {
@@ -538,7 +538,7 @@
     "ts": 714478.1460000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.d.ts"
     }
   },
   {
@@ -549,7 +549,7 @@
     "ts": 714672.2559999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.d.ts"
     }
   },
   {
@@ -560,7 +560,7 @@
     "ts": 715658.2710000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.d.ts"
     }
   },
   {
@@ -571,7 +571,7 @@
     "ts": 715815.22,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.d.ts"
     }
   },
   {
@@ -582,7 +582,7 @@
     "ts": 716430.536,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.d.ts"
     }
   },
   {
@@ -593,7 +593,7 @@
     "ts": 716652.1900000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.d.ts"
     }
   },
   {
@@ -604,7 +604,7 @@
     "ts": 717379.647,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.d.ts"
     }
   },
   {
@@ -615,7 +615,7 @@
     "ts": 717645.4770000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.d.ts"
     }
   },
   {
@@ -626,7 +626,7 @@
     "ts": 718429.559,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.d.ts"
     }
   },
   {
@@ -637,7 +637,7 @@
     "ts": 718617.024,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.d.ts"
     }
   },
   {
@@ -648,7 +648,7 @@
     "ts": 719370.586,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.d.ts"
     }
   },
   {
@@ -659,7 +659,7 @@
     "ts": 719514.6039999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.d.ts"
     }
   },
   {
@@ -671,7 +671,7 @@
     "name": "resolveLibrary",
     "dur": 333.20000000006985,
     "args": {
-      "resolveFrom": "/home/michael/Projects/example-monorepo/components/fancy-button/__lib_node_modules_lookup_lib.es2018.d.ts__.ts"
+      "resolveFrom": "/home/example/project/components/fancy-button/__lib_node_modules_lookup_lib.es2018.d.ts__.ts"
     }
   },
   {
@@ -682,7 +682,7 @@
     "ts": 720317.143,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.d.ts"
     }
   },
   {
@@ -693,7 +693,7 @@
     "ts": 720445.97,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.d.ts"
     }
   },
   {
@@ -704,7 +704,7 @@
     "ts": 721228.838,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.d.ts"
     }
   },
   {
@@ -715,7 +715,7 @@
     "ts": 721490.324,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.d.ts"
     }
   },
   {
@@ -726,7 +726,7 @@
     "ts": 722196.7660000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.d.ts"
     }
   },
   {
@@ -737,7 +737,7 @@
     "ts": 722397.961,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.d.ts"
     }
   },
   {
@@ -748,7 +748,7 @@
     "ts": 723089.1410000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.d.ts"
     }
   },
   {
@@ -759,7 +759,7 @@
     "ts": 723260.976,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.d.ts"
     }
   },
   {
@@ -770,7 +770,7 @@
     "ts": 724080.07,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts"
     }
   },
   {
@@ -781,7 +781,7 @@
     "ts": 738130.589,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts"
     }
   },
   {
@@ -792,7 +792,7 @@
     "ts": 740100.328,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.d.ts"
     }
   },
   {
@@ -803,7 +803,7 @@
     "ts": 741093.378,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.d.ts"
     }
   },
   {
@@ -815,7 +815,7 @@
     "name": "findSourceFile",
     "dur": 1308.4259999998612,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -828,7 +828,7 @@
     "ts": 741944.0469999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.legacy.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.legacy.d.ts"
     }
   },
   {
@@ -839,7 +839,7 @@
     "ts": 742183.1009999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.legacy.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.legacy.d.ts"
     }
   },
   {
@@ -851,7 +851,7 @@
     "name": "findSourceFile",
     "dur": 18607.93200000003,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -864,7 +864,7 @@
     "ts": 742856.2,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.core.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.core.d.ts"
     }
   },
   {
@@ -875,7 +875,7 @@
     "ts": 744081.9310000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.core.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.core.d.ts"
     }
   },
   {
@@ -886,7 +886,7 @@
     "ts": 745050.521,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.collection.d.ts"
     }
   },
   {
@@ -897,7 +897,7 @@
     "ts": 745768.0279999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.collection.d.ts"
     }
   },
   {
@@ -908,7 +908,7 @@
     "ts": 746606.675,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.iterable.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.iterable.d.ts"
     }
   },
   {
@@ -919,7 +919,7 @@
     "ts": 749303.7540000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.iterable.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.iterable.d.ts"
     }
   },
   {
@@ -931,7 +931,7 @@
     "name": "resolveLibrary",
     "dur": 525.9129999999423,
     "args": {
-      "resolveFrom": "/home/michael/Projects/example-monorepo/components/fancy-button/__lib_node_modules_lookup_lib.es2015.symbol.d.ts__.ts"
+      "resolveFrom": "/home/example/project/components/fancy-button/__lib_node_modules_lookup_lib.es2015.symbol.d.ts__.ts"
     }
   },
   {
@@ -942,7 +942,7 @@
     "ts": 750302.582,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.d.ts"
     }
   },
   {
@@ -953,7 +953,7 @@
     "ts": 750627.056,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.d.ts"
     }
   },
   {
@@ -965,7 +965,7 @@
     "name": "findSourceFile",
     "dur": 4338.636000000057,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -978,7 +978,7 @@
     "ts": 751287.692,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.generator.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.generator.d.ts"
     }
   },
   {
@@ -989,7 +989,7 @@
     "ts": 751722.177,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.generator.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.generator.d.ts"
     }
   },
   {
@@ -1000,7 +1000,7 @@
     "ts": 752332.253,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.promise.d.ts"
     }
   },
   {
@@ -1011,7 +1011,7 @@
     "ts": 752725.27,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.promise.d.ts"
     }
   },
   {
@@ -1022,7 +1022,7 @@
     "ts": 753251.745,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.proxy.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.proxy.d.ts"
     }
   },
   {
@@ -1033,7 +1033,7 @@
     "ts": 753666.485,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.proxy.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.proxy.d.ts"
     }
   },
   {
@@ -1044,7 +1044,7 @@
     "ts": 754836.6290000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.reflect.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.reflect.d.ts"
     }
   },
   {
@@ -1055,7 +1055,7 @@
     "ts": 755747.753,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.reflect.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.reflect.d.ts"
     }
   },
   {
@@ -1066,7 +1066,7 @@
     "ts": 756710.361,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts"
     }
   },
   {
@@ -1077,7 +1077,7 @@
     "ts": 758219.379,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts"
     }
   },
   {
@@ -1089,7 +1089,7 @@
     "name": "findSourceFile",
     "dur": 35633.30799999996,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -1102,7 +1102,7 @@
     "ts": 758999.78,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.array.include.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.array.include.d.ts"
     }
   },
   {
@@ -1113,7 +1113,7 @@
     "ts": 759345.0830000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.array.include.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.array.include.d.ts"
     }
   },
   {
@@ -1124,7 +1124,7 @@
     "ts": 759965.465,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.intl.d.ts"
     }
   },
   {
@@ -1135,7 +1135,7 @@
     "ts": 760118.371,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.intl.d.ts"
     }
   },
   {
@@ -1147,7 +1147,7 @@
     "name": "findSourceFile",
     "dur": 297.6329999997979,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.intl.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.intl.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -1161,7 +1161,7 @@
     "name": "findSourceFile",
     "dur": 38167.58999999997,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -1174,7 +1174,7 @@
     "ts": 760698.3470000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.arraybuffer.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.arraybuffer.d.ts"
     }
   },
   {
@@ -1185,7 +1185,7 @@
     "ts": 760815.71,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.arraybuffer.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.arraybuffer.d.ts"
     }
   },
   {
@@ -1196,7 +1196,7 @@
     "ts": 761332.284,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.date.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.date.d.ts"
     }
   },
   {
@@ -1207,7 +1207,7 @@
     "ts": 761477.709,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.date.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.date.d.ts"
     }
   },
   {
@@ -1218,7 +1218,7 @@
     "ts": 761948.603,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.intl.d.ts"
     }
   },
   {
@@ -1229,7 +1229,7 @@
     "ts": 762141.365,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.intl.d.ts"
     }
   },
   {
@@ -1240,7 +1240,7 @@
     "ts": 762682.412,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.object.d.ts"
     }
   },
   {
@@ -1251,7 +1251,7 @@
     "ts": 763129.684,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.object.d.ts"
     }
   },
   {
@@ -1262,7 +1262,7 @@
     "ts": 763664.5190000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts"
     }
   },
   {
@@ -1273,7 +1273,7 @@
     "ts": 764246.905,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts"
     }
   },
   {
@@ -1284,7 +1284,7 @@
     "ts": 764822.393,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.string.d.ts"
     }
   },
   {
@@ -1295,7 +1295,7 @@
     "ts": 764973.429,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.string.d.ts"
     }
   },
   {
@@ -1306,7 +1306,7 @@
     "ts": 765447.162,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts"
     }
   },
   {
@@ -1317,7 +1317,7 @@
     "ts": 765702.158,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts"
     }
   },
   {
@@ -1329,7 +1329,7 @@
     "name": "findSourceFile",
     "dur": 44704.46800000011,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -1342,7 +1342,7 @@
     "ts": 766431.169,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts"
     }
   },
   {
@@ -1353,7 +1353,7 @@
     "ts": 767303.8890000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts"
     }
   },
   {
@@ -1364,7 +1364,7 @@
     "ts": 768266.341,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts"
     }
   },
   {
@@ -1375,7 +1375,7 @@
     "ts": 768970.495,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts"
     }
   },
   {
@@ -1386,7 +1386,7 @@
     "ts": 769834.365,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.promise.d.ts"
     }
   },
   {
@@ -1397,7 +1397,7 @@
     "ts": 770058.864,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.promise.d.ts"
     }
   },
   {
@@ -1409,7 +1409,7 @@
     "name": "findSourceFile",
     "dur": 446.4120000000112,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.promise.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -1422,7 +1422,7 @@
     "ts": 770812.5179999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.regexp.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.regexp.d.ts"
     }
   },
   {
@@ -1433,7 +1433,7 @@
     "ts": 771053.263,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.regexp.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.regexp.d.ts"
     }
   },
   {
@@ -1444,7 +1444,7 @@
     "ts": 771825.3509999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.intl.d.ts"
     }
   },
   {
@@ -1455,7 +1455,7 @@
     "ts": 772473.4049999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.intl.d.ts"
     }
   },
   {
@@ -1467,7 +1467,7 @@
     "name": "findSourceFile",
     "dur": 52382.36600000004,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -1480,7 +1480,7 @@
     "ts": 773436.28,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.array.d.ts"
     }
   },
   {
@@ -1491,7 +1491,7 @@
     "ts": 774166.636,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.array.d.ts"
     }
   },
   {
@@ -1502,7 +1502,7 @@
     "ts": 774936.002,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.object.d.ts"
     }
   },
   {
@@ -1513,7 +1513,7 @@
     "ts": 775219.075,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.object.d.ts"
     }
   },
   {
@@ -1524,7 +1524,7 @@
     "ts": 775999.659,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.string.d.ts"
     }
   },
   {
@@ -1535,7 +1535,7 @@
     "ts": 776256.811,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.string.d.ts"
     }
   },
   {
@@ -1546,7 +1546,7 @@
     "ts": 776946.287,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.symbol.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.symbol.d.ts"
     }
   },
   {
@@ -1557,7 +1557,7 @@
     "ts": 777159.697,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.symbol.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.symbol.d.ts"
     }
   },
   {
@@ -1568,7 +1568,7 @@
     "ts": 777622.866,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.intl.d.ts"
     }
   },
   {
@@ -1579,7 +1579,7 @@
     "ts": 777763.705,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.intl.d.ts"
     }
   },
   {
@@ -1591,7 +1591,7 @@
     "name": "findSourceFile",
     "dur": 58572.926000000094,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -1604,7 +1604,7 @@
     "ts": 778338.134,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.bigint.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.bigint.d.ts"
     }
   },
   {
@@ -1615,7 +1615,7 @@
     "ts": 786869.126,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.bigint.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.bigint.d.ts"
     }
   },
   {
@@ -1626,7 +1626,7 @@
     "ts": 787772.819,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.intl.d.ts"
     }
   },
   {
@@ -1637,7 +1637,7 @@
     "ts": 788851.621,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.intl.d.ts"
     }
   },
   {
@@ -1649,7 +1649,7 @@
     "name": "findSourceFile",
     "dur": 11013.628000000026,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.bigint.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -1662,7 +1662,7 @@
     "ts": 789716.364,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.date.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.date.d.ts"
     }
   },
   {
@@ -1673,7 +1673,7 @@
     "ts": 789957.7980000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.date.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.date.d.ts"
     }
   },
   {
@@ -1685,7 +1685,7 @@
     "name": "findSourceFile",
     "dur": 446.6720000000205,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.date.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.date.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -1698,7 +1698,7 @@
     "ts": 790466.537,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.number.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.number.d.ts"
     }
   },
   {
@@ -1709,7 +1709,7 @@
     "ts": 790621.2000000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.number.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.number.d.ts"
     }
   },
   {
@@ -1720,7 +1720,7 @@
     "ts": 791098.191,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.promise.d.ts"
     }
   },
   {
@@ -1731,7 +1731,7 @@
     "ts": 791398.5549999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.promise.d.ts"
     }
   },
   {
@@ -1742,7 +1742,7 @@
     "ts": 792108.668,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts"
     }
   },
   {
@@ -1753,7 +1753,7 @@
     "ts": 792561.1699999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts"
     }
   },
   {
@@ -1764,7 +1764,7 @@
     "ts": 793028.6630000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.string.d.ts"
     }
   },
   {
@@ -1775,7 +1775,7 @@
     "ts": 793237.171,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.string.d.ts"
     }
   },
   {
@@ -1786,7 +1786,7 @@
     "ts": 793935.645,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts"
     }
   },
   {
@@ -1797,7 +1797,7 @@
     "ts": 794239.83,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts"
     }
   },
   {
@@ -1809,7 +1809,7 @@
     "name": "findSourceFile",
     "dur": 76127.75599999994,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -1822,7 +1822,7 @@
     "ts": 794840.331,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.promise.d.ts"
     }
   },
   {
@@ -1833,7 +1833,7 @@
     "ts": 795175.782,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.promise.d.ts"
     }
   },
   {
@@ -1844,7 +1844,7 @@
     "ts": 795670.743,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.string.d.ts"
     }
   },
   {
@@ -1855,7 +1855,7 @@
     "ts": 795832.4199999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.string.d.ts"
     }
   },
   {
@@ -1866,7 +1866,7 @@
     "ts": 796497.0160000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.weakref.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.weakref.d.ts"
     }
   },
   {
@@ -1877,7 +1877,7 @@
     "ts": 796856.803,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.weakref.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.weakref.d.ts"
     }
   },
   {
@@ -1888,7 +1888,7 @@
     "ts": 797301.829,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.intl.d.ts"
     }
   },
   {
@@ -1899,7 +1899,7 @@
     "ts": 797789.888,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.intl.d.ts"
     }
   },
   {
@@ -1911,7 +1911,7 @@
     "name": "findSourceFile",
     "dur": 80658.94099999999,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -1924,7 +1924,7 @@
     "ts": 798355.033,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.array.d.ts"
     }
   },
   {
@@ -1935,7 +1935,7 @@
     "ts": 798685.4160000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.array.d.ts"
     }
   },
   {
@@ -1946,7 +1946,7 @@
     "ts": 799107.0260000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.error.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.error.d.ts"
     }
   },
   {
@@ -1957,7 +1957,7 @@
     "ts": 799400.919,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.error.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.error.d.ts"
     }
   },
   {
@@ -1968,7 +1968,7 @@
     "ts": 799851.764,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.intl.d.ts"
     }
   },
   {
@@ -1979,7 +1979,7 @@
     "ts": 800230,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.intl.d.ts"
     }
   },
   {
@@ -1991,7 +1991,7 @@
     "name": "findSourceFile",
     "dur": 551.0929999999935,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.intl.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.intl.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -2004,7 +2004,7 @@
     "ts": 800680.477,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.object.d.ts"
     }
   },
   {
@@ -2015,7 +2015,7 @@
     "ts": 800803.001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.object.d.ts"
     }
   },
   {
@@ -2026,7 +2026,7 @@
     "ts": 801163.3,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.regexp.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.regexp.d.ts"
     }
   },
   {
@@ -2037,7 +2037,7 @@
     "ts": 801351.162,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.regexp.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.regexp.d.ts"
     }
   },
   {
@@ -2048,7 +2048,7 @@
     "ts": 801729.938,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.string.d.ts"
     }
   },
   {
@@ -2059,7 +2059,7 @@
     "ts": 801850.502,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.string.d.ts"
     }
   },
   {
@@ -2071,7 +2071,7 @@
     "name": "findSourceFile",
     "dur": 85599.43700000003,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -2084,7 +2084,7 @@
     "ts": 802258.917,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.array.d.ts"
     }
   },
   {
@@ -2095,7 +2095,7 @@
     "ts": 803996.134,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.array.d.ts"
     }
   },
   {
@@ -2106,7 +2106,7 @@
     "ts": 804623.103,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.collection.d.ts"
     }
   },
   {
@@ -2117,7 +2117,7 @@
     "ts": 804727.505,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.collection.d.ts"
     }
   },
   {
@@ -2128,7 +2128,7 @@
     "ts": 805124.62,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.intl.d.ts"
     }
   },
   {
@@ -2139,7 +2139,7 @@
     "ts": 805588.634,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.intl.d.ts"
     }
   },
   {
@@ -2151,7 +2151,7 @@
     "name": "findSourceFile",
     "dur": 90145.69800000009,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -2164,7 +2164,7 @@
     "ts": 806136.417,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.arraybuffer.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.arraybuffer.d.ts"
     }
   },
   {
@@ -2175,7 +2175,7 @@
     "ts": 806378.9369999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.arraybuffer.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.arraybuffer.d.ts"
     }
   },
   {
@@ -2186,7 +2186,7 @@
     "ts": 807066.057,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.collection.d.ts"
     }
   },
   {
@@ -2197,7 +2197,7 @@
     "ts": 807224.78,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.collection.d.ts"
     }
   },
   {
@@ -2208,7 +2208,7 @@
     "ts": 807617.572,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.object.d.ts"
     }
   },
   {
@@ -2219,7 +2219,7 @@
     "ts": 807770.093,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.object.d.ts"
     }
   },
   {
@@ -2230,7 +2230,7 @@
     "ts": 808171.332,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.promise.d.ts"
     }
   },
   {
@@ -2241,7 +2241,7 @@
     "ts": 808350.1109999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.promise.d.ts"
     }
   },
   {
@@ -2252,7 +2252,7 @@
     "ts": 808728.1329999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.regexp.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.regexp.d.ts"
     }
   },
   {
@@ -2263,7 +2263,7 @@
     "ts": 808838.777,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.regexp.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.regexp.d.ts"
     }
   },
   {
@@ -2274,7 +2274,7 @@
     "ts": 809192.864,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.sharedmemory.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.sharedmemory.d.ts"
     }
   },
   {
@@ -2285,7 +2285,7 @@
     "ts": 809451.586,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.sharedmemory.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.sharedmemory.d.ts"
     }
   },
   {
@@ -2296,7 +2296,7 @@
     "ts": 809874.107,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.string.d.ts"
     }
   },
   {
@@ -2307,7 +2307,7 @@
     "ts": 809992.882,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.string.d.ts"
     }
   },
   {
@@ -2319,7 +2319,7 @@
     "name": "findSourceFile",
     "dur": 245.06000000005588,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.string.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.string.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -2333,7 +2333,7 @@
     "name": "findSourceFile",
     "dur": 95698.50100000005,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibReferenceDirective"
     }
@@ -2346,7 +2346,7 @@
     "ts": 810404.51,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.intl.d.ts"
     }
   },
   {
@@ -2357,7 +2357,7 @@
     "ts": 810507.7320000001,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.intl.d.ts"
     }
   },
   {
@@ -2368,7 +2368,7 @@
     "ts": 810881.004,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.decorators.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.decorators.d.ts"
     }
   },
   {
@@ -2379,7 +2379,7 @@
     "ts": 811042.3039999999,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.decorators.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.decorators.d.ts"
     }
   },
   {
@@ -2390,7 +2390,7 @@
     "ts": 811462.801,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.disposable.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.disposable.d.ts"
     }
   },
   {
@@ -2401,7 +2401,7 @@
     "ts": 812962.781,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.disposable.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.disposable.d.ts"
     }
   },
   {
@@ -2412,7 +2412,7 @@
     "ts": 813586.459,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.collection.d.ts"
     }
   },
   {
@@ -2423,7 +2423,7 @@
     "ts": 813933.091,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.collection.d.ts"
     }
   },
   {
@@ -2434,7 +2434,7 @@
     "ts": 814413.089,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.array.d.ts"
     }
   },
   {
@@ -2445,7 +2445,7 @@
     "ts": 814616.581,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.array.d.ts"
     }
   },
   {
@@ -2456,7 +2456,7 @@
     "ts": 815007.301,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.iterator.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.iterator.d.ts"
     }
   },
   {
@@ -2467,7 +2467,7 @@
     "ts": 816128.127,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.iterator.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.iterator.d.ts"
     }
   },
   {
@@ -2478,7 +2478,7 @@
     "ts": 817000.047,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.promise.d.ts"
     }
   },
   {
@@ -2489,7 +2489,7 @@
     "ts": 817174.4,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.promise.d.ts"
     }
   },
   {
@@ -2500,7 +2500,7 @@
     "ts": 817596.676,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.float16.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.float16.d.ts"
     }
   },
   {
@@ -2511,7 +2511,7 @@
     "ts": 819214.726,
     "name": "createSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.float16.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.float16.d.ts"
     }
   },
   {
@@ -2523,7 +2523,7 @@
     "name": "findSourceFile",
     "dur": 106199.72899999993,
     "args": {
-      "fileName": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.d.ts",
+      "fileName": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.d.ts",
       "isDefaultLib": true,
       "fileIncludeKind": "LibFile"
     }
@@ -2536,7 +2536,7 @@
     "ts": 828579.978,
     "name": "createProgram",
     "args": {
-      "configFilePath": "/home/michael/Projects/example-monorepo/components/fancy-button/tsconfig.json"
+      "configFilePath": "/home/example/project/components/fancy-button/tsconfig.json"
     }
   },
   {
@@ -2547,7 +2547,7 @@
     "ts": 841955.2509999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts"
     }
   },
   {
@@ -2558,7 +2558,7 @@
     "ts": 866052.836,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es5.d.ts"
     }
   },
   {
@@ -2569,7 +2569,7 @@
     "ts": 866451.3940000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.d.ts"
     }
   },
   {
@@ -2580,7 +2580,7 @@
     "ts": 866535.5449999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.d.ts"
     }
   },
   {
@@ -2591,7 +2591,7 @@
     "ts": 866586.1640000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.d.ts"
     }
   },
   {
@@ -2602,7 +2602,7 @@
     "ts": 866614.015,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.d.ts"
     }
   },
   {
@@ -2613,7 +2613,7 @@
     "ts": 866636.962,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.d.ts"
     }
   },
   {
@@ -2624,7 +2624,7 @@
     "ts": 866669.073,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.d.ts"
     }
   },
   {
@@ -2635,7 +2635,7 @@
     "ts": 866708.171,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.d.ts"
     }
   },
   {
@@ -2646,7 +2646,7 @@
     "ts": 866748.38,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.d.ts"
     }
   },
   {
@@ -2657,7 +2657,7 @@
     "ts": 866775.4569999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.d.ts"
     }
   },
   {
@@ -2668,7 +2668,7 @@
     "ts": 866801.034,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.d.ts"
     }
   },
   {
@@ -2679,7 +2679,7 @@
     "ts": 866821.193,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.d.ts"
     }
   },
   {
@@ -2690,7 +2690,7 @@
     "ts": 866841.859,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.d.ts"
     }
   },
   {
@@ -2701,7 +2701,7 @@
     "ts": 866861.746,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.d.ts"
     }
   },
   {
@@ -2712,7 +2712,7 @@
     "ts": 866991.64,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.d.ts"
     }
   },
   {
@@ -2723,7 +2723,7 @@
     "ts": 867027.292,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.d.ts"
     }
   },
   {
@@ -2734,7 +2734,7 @@
     "ts": 867062.175,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.d.ts"
     }
   },
   {
@@ -2745,7 +2745,7 @@
     "ts": 867175.583,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.d.ts"
     }
   },
   {
@@ -2756,7 +2756,7 @@
     "ts": 867217.581,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.d.ts"
     }
   },
   {
@@ -2767,7 +2767,7 @@
     "ts": 867243.871,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.d.ts"
     }
   },
   {
@@ -2778,7 +2778,7 @@
     "ts": 867287.161,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.d.ts"
     }
   },
   {
@@ -2789,7 +2789,7 @@
     "ts": 867306.524,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.d.ts"
     }
   },
   {
@@ -2800,7 +2800,7 @@
     "ts": 867352.635,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.d.ts"
     }
   },
   {
@@ -2811,7 +2811,7 @@
     "ts": 867371.402,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.dom.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.dom.d.ts"
     }
   },
   {
@@ -2822,7 +2822,7 @@
     "ts": 965267.694,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.dom.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.dom.d.ts"
     }
   },
   {
@@ -2833,7 +2833,7 @@
     "ts": 965356.6980000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.core.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.core.d.ts"
     }
   },
   {
@@ -2844,7 +2844,7 @@
     "ts": 966157.094,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.core.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.core.d.ts"
     }
   },
   {
@@ -2855,7 +2855,7 @@
     "ts": 966213.6259999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.collection.d.ts"
     }
   },
   {
@@ -2866,7 +2866,7 @@
     "ts": 966790.152,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.collection.d.ts"
     }
   },
   {
@@ -2877,7 +2877,7 @@
     "ts": 966843.959,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.generator.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.generator.d.ts"
     }
   },
   {
@@ -2888,7 +2888,7 @@
     "ts": 967954.092,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.generator.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.generator.d.ts"
     }
   },
   {
@@ -2899,7 +2899,7 @@
     "ts": 968001.3239999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.iterable.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.iterable.d.ts"
     }
   },
   {
@@ -2910,7 +2910,7 @@
     "ts": 970998.532,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.iterable.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.iterable.d.ts"
     }
   },
   {
@@ -2921,7 +2921,7 @@
     "ts": 971054.121,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.promise.d.ts"
     }
   },
   {
@@ -2932,7 +2932,7 @@
     "ts": 971313.421,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.promise.d.ts"
     }
   },
   {
@@ -2943,7 +2943,7 @@
     "ts": 971357.17,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.proxy.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.proxy.d.ts"
     }
   },
   {
@@ -2954,7 +2954,7 @@
     "ts": 971765.4519999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.proxy.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.proxy.d.ts"
     }
   },
   {
@@ -2965,7 +2965,7 @@
     "ts": 971817.681,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.reflect.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.reflect.d.ts"
     }
   },
   {
@@ -2976,7 +2976,7 @@
     "ts": 972646.8620000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.reflect.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.reflect.d.ts"
     }
   },
   {
@@ -2987,7 +2987,7 @@
     "ts": 972691.052,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.d.ts"
     }
   },
   {
@@ -2998,7 +2998,7 @@
     "ts": 972752.187,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.d.ts"
     }
   },
   {
@@ -3009,7 +3009,7 @@
     "ts": 972772.407,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts"
     }
   },
   {
@@ -3020,7 +3020,7 @@
     "ts": 973291.147,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts"
     }
   },
   {
@@ -3031,7 +3031,7 @@
     "ts": 973318.7840000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.array.include.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.array.include.d.ts"
     }
   },
   {
@@ -3042,7 +3042,7 @@
     "ts": 973452.288,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.array.include.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.array.include.d.ts"
     }
   },
   {
@@ -3053,7 +3053,7 @@
     "ts": 973471.479,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.intl.d.ts"
     }
   },
   {
@@ -3064,7 +3064,7 @@
     "ts": 973543.319,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2016.intl.d.ts"
     }
   },
   {
@@ -3075,7 +3075,7 @@
     "ts": 973579.711,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.arraybuffer.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.arraybuffer.d.ts"
     }
   },
   {
@@ -3086,7 +3086,7 @@
     "ts": 973604.784,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.arraybuffer.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.arraybuffer.d.ts"
     }
   },
   {
@@ -3097,7 +3097,7 @@
     "ts": 973620.589,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.date.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.date.d.ts"
     }
   },
   {
@@ -3108,7 +3108,7 @@
     "ts": 973656.9130000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.date.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.date.d.ts"
     }
   },
   {
@@ -3119,7 +3119,7 @@
     "ts": 973673.603,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.object.d.ts"
     }
   },
   {
@@ -3130,7 +3130,7 @@
     "ts": 973762.44,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.object.d.ts"
     }
   },
   {
@@ -3141,7 +3141,7 @@
     "ts": 973788.608,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts"
     }
   },
   {
@@ -3152,7 +3152,7 @@
     "ts": 974053.137,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts"
     }
   },
   {
@@ -3163,7 +3163,7 @@
     "ts": 974075.3999999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.string.d.ts"
     }
   },
   {
@@ -3174,7 +3174,7 @@
     "ts": 974108.0449999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.string.d.ts"
     }
   },
   {
@@ -3185,7 +3185,7 @@
     "ts": 974125.373,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.intl.d.ts"
     }
   },
   {
@@ -3196,7 +3196,7 @@
     "ts": 974263.4839999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.intl.d.ts"
     }
   },
   {
@@ -3207,7 +3207,7 @@
     "ts": 974286.186,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts"
     }
   },
   {
@@ -3218,7 +3218,7 @@
     "ts": 974355.4500000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts"
     }
   },
   {
@@ -3229,7 +3229,7 @@
     "ts": 974373.133,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts"
     }
   },
   {
@@ -3240,7 +3240,7 @@
     "ts": 974491.432,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts"
     }
   },
   {
@@ -3251,7 +3251,7 @@
     "ts": 974511.9099999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts"
     }
   },
   {
@@ -3262,7 +3262,7 @@
     "ts": 974710.3369999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts"
     }
   },
   {
@@ -3273,7 +3273,7 @@
     "ts": 974741.3219999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.intl.d.ts"
     }
   },
   {
@@ -3284,7 +3284,7 @@
     "ts": 975099.668,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.intl.d.ts"
     }
   },
   {
@@ -3295,7 +3295,7 @@
     "ts": 975130.11,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.promise.d.ts"
     }
   },
   {
@@ -3306,7 +3306,7 @@
     "ts": 975168.395,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.promise.d.ts"
     }
   },
   {
@@ -3317,7 +3317,7 @@
     "ts": 975186.5279999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.regexp.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.regexp.d.ts"
     }
   },
   {
@@ -3328,7 +3328,7 @@
     "ts": 975261.135,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.regexp.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2018.regexp.d.ts"
     }
   },
   {
@@ -3339,7 +3339,7 @@
     "ts": 975296.335,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.array.d.ts"
     }
   },
   {
@@ -3350,7 +3350,7 @@
     "ts": 975459.6810000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.array.d.ts"
     }
   },
   {
@@ -3361,7 +3361,7 @@
     "ts": 975481.7440000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.object.d.ts"
     }
   },
   {
@@ -3372,7 +3372,7 @@
     "ts": 975525.848,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.object.d.ts"
     }
   },
   {
@@ -3383,7 +3383,7 @@
     "ts": 975543.572,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.string.d.ts"
     }
   },
   {
@@ -3394,7 +3394,7 @@
     "ts": 975599.941,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.string.d.ts"
     }
   },
   {
@@ -3405,7 +3405,7 @@
     "ts": 975616.95,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.symbol.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.symbol.d.ts"
     }
   },
   {
@@ -3416,7 +3416,7 @@
     "ts": 975639.635,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.symbol.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.symbol.d.ts"
     }
   },
   {
@@ -3427,7 +3427,7 @@
     "ts": 975654.603,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.intl.d.ts"
     }
   },
   {
@@ -3438,7 +3438,7 @@
     "ts": 975701.188,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2019.intl.d.ts"
     }
   },
   {
@@ -3449,7 +3449,7 @@
     "ts": 975720.556,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.bigint.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.bigint.d.ts"
     }
   },
   {
@@ -3460,7 +3460,7 @@
     "ts": 977025.449,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.bigint.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.bigint.d.ts"
     }
   },
   {
@@ -3471,7 +3471,7 @@
     "ts": 977064.42,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.date.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.date.d.ts"
     }
   },
   {
@@ -3482,7 +3482,7 @@
     "ts": 977118.34,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.date.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.date.d.ts"
     }
   },
   {
@@ -3493,7 +3493,7 @@
     "ts": 977136.888,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.promise.d.ts"
     }
   },
   {
@@ -3504,7 +3504,7 @@
     "ts": 977265.5750000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.promise.d.ts"
     }
   },
   {
@@ -3515,7 +3515,7 @@
     "ts": 977309.896,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts"
     }
   },
   {
@@ -3526,7 +3526,7 @@
     "ts": 977452.817,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts"
     }
   },
   {
@@ -3537,7 +3537,7 @@
     "ts": 977479.217,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.string.d.ts"
     }
   },
   {
@@ -3548,7 +3548,7 @@
     "ts": 977529.3,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.string.d.ts"
     }
   },
   {
@@ -3559,7 +3559,7 @@
     "ts": 977556.175,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts"
     }
   },
   {
@@ -3570,7 +3570,7 @@
     "ts": 977632.891,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts"
     }
   },
   {
@@ -3581,7 +3581,7 @@
     "ts": 977665.645,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.intl.d.ts"
     }
   },
   {
@@ -3592,7 +3592,7 @@
     "ts": 978615.415,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.intl.d.ts"
     }
   },
   {
@@ -3603,7 +3603,7 @@
     "ts": 978650.6440000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.number.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.number.d.ts"
     }
   },
   {
@@ -3614,7 +3614,7 @@
     "ts": 978683.8219999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.number.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2020.number.d.ts"
     }
   },
   {
@@ -3625,7 +3625,7 @@
     "ts": 978701.0430000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.promise.d.ts"
     }
   },
   {
@@ -3636,7 +3636,7 @@
     "ts": 978779.5700000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.promise.d.ts"
     }
   },
   {
@@ -3647,7 +3647,7 @@
     "ts": 978798.265,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.string.d.ts"
     }
   },
   {
@@ -3658,7 +3658,7 @@
     "ts": 978838.046,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.string.d.ts"
     }
   },
   {
@@ -3669,7 +3669,7 @@
     "ts": 978854.681,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.weakref.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.weakref.d.ts"
     }
   },
   {
@@ -3680,7 +3680,7 @@
     "ts": 978981.412,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.weakref.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.weakref.d.ts"
     }
   },
   {
@@ -3691,7 +3691,7 @@
     "ts": 979005.035,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.intl.d.ts"
     }
   },
   {
@@ -3702,7 +3702,7 @@
     "ts": 979389.144,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2021.intl.d.ts"
     }
   },
   {
@@ -3713,7 +3713,7 @@
     "ts": 979415.705,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.array.d.ts"
     }
   },
   {
@@ -3724,7 +3724,7 @@
     "ts": 979562.918,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.array.d.ts"
     }
   },
   {
@@ -3735,7 +3735,7 @@
     "ts": 979601.002,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.error.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.error.d.ts"
     }
   },
   {
@@ -3746,7 +3746,7 @@
     "ts": 979749.276,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.error.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.error.d.ts"
     }
   },
   {
@@ -3757,7 +3757,7 @@
     "ts": 979768.002,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.intl.d.ts"
     }
   },
   {
@@ -3768,7 +3768,7 @@
     "ts": 980008.55,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.intl.d.ts"
     }
   },
   {
@@ -3779,7 +3779,7 @@
     "ts": 980032.2159999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.object.d.ts"
     }
   },
   {
@@ -3790,7 +3790,7 @@
     "ts": 980096.101,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.object.d.ts"
     }
   },
   {
@@ -3801,7 +3801,7 @@
     "ts": 980118.695,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.string.d.ts"
     }
   },
   {
@@ -3812,7 +3812,7 @@
     "ts": 980145.217,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.string.d.ts"
     }
   },
   {
@@ -3823,7 +3823,7 @@
     "ts": 980160.82,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.regexp.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.regexp.d.ts"
     }
   },
   {
@@ -3834,7 +3834,7 @@
     "ts": 980205.336,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.regexp.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2022.regexp.d.ts"
     }
   },
   {
@@ -3845,7 +3845,7 @@
     "ts": 980221.412,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.array.d.ts"
     }
   },
   {
@@ -3856,7 +3856,7 @@
     "ts": 992475.414,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.array.d.ts"
     }
   },
   {
@@ -3867,7 +3867,7 @@
     "ts": 992565.9,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.collection.d.ts"
     }
   },
   {
@@ -3878,7 +3878,7 @@
     "ts": 992611.111,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.collection.d.ts"
     }
   },
   {
@@ -3889,7 +3889,7 @@
     "ts": 992629.553,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.intl.d.ts"
     }
   },
   {
@@ -3900,7 +3900,7 @@
     "ts": 992938.5750000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2023.intl.d.ts"
     }
   },
   {
@@ -3911,7 +3911,7 @@
     "ts": 992963.6000000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.arraybuffer.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.arraybuffer.d.ts"
     }
   },
   {
@@ -3922,7 +3922,7 @@
     "ts": 993030.73,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.arraybuffer.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.arraybuffer.d.ts"
     }
   },
   {
@@ -3933,7 +3933,7 @@
     "ts": 993060.408,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.collection.d.ts"
     }
   },
   {
@@ -3944,7 +3944,7 @@
     "ts": 993101.88,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.collection.d.ts"
     }
   },
   {
@@ -3955,7 +3955,7 @@
     "ts": 993119.28,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.object.d.ts"
     }
   },
   {
@@ -3966,7 +3966,7 @@
     "ts": 993156.819,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.object.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.object.d.ts"
     }
   },
   {
@@ -3977,7 +3977,7 @@
     "ts": 993172.8030000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.promise.d.ts"
     }
   },
   {
@@ -3988,7 +3988,7 @@
     "ts": 993217.82,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.promise.d.ts"
     }
   },
   {
@@ -3999,7 +3999,7 @@
     "ts": 993233.9990000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.regexp.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.regexp.d.ts"
     }
   },
   {
@@ -4010,7 +4010,7 @@
     "ts": 993254.183,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.regexp.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.regexp.d.ts"
     }
   },
   {
@@ -4021,7 +4021,7 @@
     "ts": 993268.7409999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.sharedmemory.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.sharedmemory.d.ts"
     }
   },
   {
@@ -4032,7 +4032,7 @@
     "ts": 993366.074,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.sharedmemory.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.sharedmemory.d.ts"
     }
   },
   {
@@ -4043,7 +4043,7 @@
     "ts": 993385.039,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.string.d.ts"
     }
   },
   {
@@ -4054,7 +4054,7 @@
     "ts": 993407.578,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.string.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.es2024.string.d.ts"
     }
   },
   {
@@ -4065,7 +4065,7 @@
     "ts": 993422.682,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.array.d.ts"
     }
   },
   {
@@ -4076,7 +4076,7 @@
     "ts": 993490.639,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.array.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.array.d.ts"
     }
   },
   {
@@ -4087,7 +4087,7 @@
     "ts": 993507.8509999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.collection.d.ts"
     }
   },
   {
@@ -4098,7 +4098,7 @@
     "ts": 993697.997,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.collection.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.collection.d.ts"
     }
   },
   {
@@ -4109,7 +4109,7 @@
     "ts": 993739.279,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.intl.d.ts"
     }
   },
   {
@@ -4120,7 +4120,7 @@
     "ts": 993788.5499999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.intl.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.intl.d.ts"
     }
   },
   {
@@ -4131,7 +4131,7 @@
     "ts": 993828.4210000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.disposable.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.disposable.d.ts"
     }
   },
   {
@@ -4142,7 +4142,7 @@
     "ts": 994441.446,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.disposable.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.disposable.d.ts"
     }
   },
   {
@@ -4153,7 +4153,7 @@
     "ts": 994492.296,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.promise.d.ts"
     }
   },
   {
@@ -4164,7 +4164,7 @@
     "ts": 994592.492,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.promise.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.promise.d.ts"
     }
   },
   {
@@ -4175,7 +4175,7 @@
     "ts": 994636.196,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.decorators.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.decorators.d.ts"
     }
   },
   {
@@ -4186,7 +4186,7 @@
     "ts": 994695.754,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.decorators.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.decorators.d.ts"
     }
   },
   {
@@ -4197,7 +4197,7 @@
     "ts": 994731.012,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.iterator.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.iterator.d.ts"
     }
   },
   {
@@ -4208,7 +4208,7 @@
     "ts": 996955.748,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.iterator.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.iterator.d.ts"
     }
   },
   {
@@ -4219,7 +4219,7 @@
     "ts": 997022.054,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.float16.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.float16.d.ts"
     }
   },
   {
@@ -4230,7 +4230,7 @@
     "ts": 998418.708,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.float16.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.esnext.float16.d.ts"
     }
   },
   {
@@ -4241,7 +4241,7 @@
     "ts": 998469.0530000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.d.ts"
     }
   },
   {
@@ -4252,7 +4252,7 @@
     "ts": 999308.116,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.d.ts"
     }
   },
   {
@@ -4263,7 +4263,7 @@
     "ts": 999350.2200000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.legacy.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.legacy.d.ts"
     }
   },
   {
@@ -4274,7 +4274,7 @@
     "ts": 999448.888,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.legacy.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/typescript@5.8.2/node_modules/typescript/lib/lib.decorators.legacy.d.ts"
     }
   },
   {
@@ -4285,7 +4285,7 @@
     "ts": 999468.6460000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/configs/typescript/types/css-modules.d.ts"
+      "path": "/home/example/project/configs/typescript/types/css-modules.d.ts"
     }
   },
   {
@@ -4296,7 +4296,7 @@
     "ts": 1000348.933,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/configs/typescript/types/css-modules.d.ts"
+      "path": "/home/example/project/configs/typescript/types/css-modules.d.ts"
     }
   },
   {
@@ -4307,7 +4307,7 @@
     "ts": 1000398.372,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/global.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/global.d.ts"
     }
   },
   {
@@ -4318,7 +4318,7 @@
     "ts": 1001503.774,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/global.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/global.d.ts"
     }
   },
   {
@@ -4329,7 +4329,7 @@
     "ts": 1001551.5279999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/csstype@3.1.3/node_modules/csstype/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/csstype@3.1.3/node_modules/csstype/index.d.ts"
     }
   },
   {
@@ -4340,7 +4340,7 @@
     "ts": 1040051.4410000001,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/csstype@3.1.3/node_modules/csstype/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/csstype@3.1.3/node_modules/csstype/index.d.ts"
     }
   },
   {
@@ -4351,7 +4351,7 @@
     "ts": 1040134.892,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+prop-types@15.7.12/node_modules/@types/prop-types/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+prop-types@15.7.12/node_modules/@types/prop-types/index.d.ts"
     }
   },
   {
@@ -4362,7 +4362,7 @@
     "ts": 1041241.283,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+prop-types@15.7.12/node_modules/@types/prop-types/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+prop-types@15.7.12/node_modules/@types/prop-types/index.d.ts"
     }
   },
   {
@@ -4373,7 +4373,7 @@
     "ts": 1041286.92,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts"
     }
   },
   {
@@ -4384,7 +4384,7 @@
     "ts": 1063263.802,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts"
     }
   },
   {
@@ -4395,7 +4395,7 @@
     "ts": 1063347.688,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/jsx-runtime.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/jsx-runtime.d.ts"
     }
   },
   {
@@ -4406,7 +4406,7 @@
     "ts": 1063751.244,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/jsx-runtime.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/jsx-runtime.d.ts"
     }
   },
   {
@@ -4417,7 +4417,7 @@
     "ts": 1063790.9239999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/global.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/global.d.ts"
     }
   },
   {
@@ -4428,7 +4428,7 @@
     "ts": 1064432.851,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/global.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/global.d.ts"
     }
   },
   {
@@ -4439,7 +4439,7 @@
     "ts": 1064479.04,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/index.d.ts"
     }
   },
   {
@@ -4450,7 +4450,7 @@
     "ts": 1081821.672,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+react@18.3.3/node_modules/@types/react/index.d.ts"
     }
   },
   {
@@ -4461,7 +4461,7 @@
     "ts": 1081902.719,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+canvas-confetti@1.6.4/node_modules/@types/canvas-confetti/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+canvas-confetti@1.6.4/node_modules/@types/canvas-confetti/index.d.ts"
     }
   },
   {
@@ -4472,7 +4472,7 @@
     "ts": 1082530.896,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/@types+canvas-confetti@1.6.4/node_modules/@types/canvas-confetti/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/@types+canvas-confetti@1.6.4/node_modules/@types/canvas-confetti/index.d.ts"
     }
   },
   {
@@ -4483,7 +4483,7 @@
     "ts": 1082579.0280000002,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/normalization.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/normalization.d.ts"
     }
   },
   {
@@ -4494,7 +4494,7 @@
     "ts": 1082714.205,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/normalization.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/normalization.d.ts"
     }
   },
   {
@@ -4505,7 +4505,7 @@
     "ts": 1082741.885,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/index.d.ts"
     }
   },
   {
@@ -4516,7 +4516,7 @@
     "ts": 1083004.969,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/types/index.d.ts"
     }
   },
   {
@@ -4527,7 +4527,7 @@
     "ts": 1083042.245,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/presets/fireworks/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/presets/fireworks/index.d.ts"
     }
   },
   {
@@ -4538,7 +4538,7 @@
     "ts": 1083113.395,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/presets/fireworks/index.d.ts"
+      "path": "/home/example/project/node_modules/.pnpm/react-canvas-confetti@2.0.7_react@18.3.1/node_modules/react-canvas-confetti/dist/presets/fireworks/index.d.ts"
     }
   },
   {
@@ -4549,7 +4549,7 @@
     "ts": 1083135.4579999999,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/components/fancy-button/src/FancyButton.tsx"
+      "path": "/home/example/project/components/fancy-button/src/FancyButton.tsx"
     }
   },
   {
@@ -4560,7 +4560,7 @@
     "ts": 1085647.187,
     "name": "bindSourceFile",
     "args": {
-      "path": "/home/michael/Projects/example-monorepo/components/fancy-button/src/FancyButton.tsx"
+      "path": "/home/example/project/components/fancy-button/src/FancyButton.tsx"
     }
   }
 ]

@@ -55,24 +55,8 @@ if (!args.input) {
  * Format duration in microseconds to a human-readable format
  */
 function formatDuration(microseconds: number): string {
-  const ms = microseconds / 1000;
-  const seconds = Math.floor(ms / 1000);
-  const minutes = Math.floor(seconds / 60);
-  const remainingSeconds = seconds % 60;
-  const remainingMs = Math.floor(ms % 1000);
-
-  const parts: string[] = [];
-  if (minutes > 0) {
-    parts.push(`${minutes}m`);
-  }
-  if (remainingSeconds > 0 || minutes > 0) {
-    parts.push(`${remainingSeconds}s`);
-  }
-  if (remainingMs > 0 || parts.length === 0) {
-    parts.push(`${remainingMs}ms`);
-  }
-
-  return parts.join(" ");
+  const milliseconds = Math.floor(microseconds / 1000)
+  return format(milliseconds, { style: "narrow", ignoreZero: true });
 }
 
 /**
