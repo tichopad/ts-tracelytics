@@ -52,11 +52,14 @@ if (!args.input) {
 }
 
 /**
- * Format duration in microseconds to a human-readable format
+ * Format duration in microseconds to a human-readable format with microsecond precision
  */
 function formatDuration(microseconds: number): string {
-  const milliseconds = Math.floor(microseconds / 1000)
-  return format(milliseconds, { style: "narrow", ignoreZero: true });
+  const millisWithMicrosPrecision = Math.round(microseconds / 1000 * 1000) / 1000;
+  return format(millisWithMicrosPrecision, {
+    style: "narrow",
+    ignoreZero: true
+  });
 }
 
 /**
@@ -190,7 +193,7 @@ function printTerminalStats(stats: Statistics): void {
   }
 
   console.log(
-    `\n${gray("Note: All times are in microseconds (µs) unless otherwise specified")}${reset("")}\n`,
+    `\n${gray("Note: All times are approximate. Use `--output` to get detailed statistics as JSON.")}${reset("")}\n`,
   );
 }
 
