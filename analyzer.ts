@@ -1,24 +1,4 @@
-import {
-  type FileStats,
-  type Operation,
-  type Statistics,
-  type TraceEvent,
-} from "./types.ts";
-
-/**
- * Extract file extension from a file path
- */
-function getFileExtension(filePath: string): string {
-  const match = filePath.match(/\.([^\.]+)$/);
-  return match ? match[1] : "unknown";
-}
-
-/**
- * Get the file path from a trace event
- */
-function getFilePath(event: TraceEvent): string | null {
-  return event.args.path || event.args.fileName || null;
-}
+import type { FileStats, Statistics, TraceEvent } from "./types.ts";
 
 /**
  * Analyze trace data and generate statistics
@@ -235,4 +215,19 @@ export function analyzeTrace(events: TraceEvent[]): Statistics {
     .slice(0, 10);
 
   return stats;
+}
+
+/**
+ * Extract file extension from a file path
+ */
+function getFileExtension(filePath: string): string {
+  const match = filePath.match(/\.([^\.]+)$/);
+  return match ? match[1] : "unknown";
+}
+
+/**
+ * Get the file path from a trace event
+ */
+function getFilePath(event: TraceEvent): string | null {
+  return event.args.path || event.args.fileName || null;
 }

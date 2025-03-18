@@ -1,234 +1,84 @@
 #!/usr/bin/env deno
 
 import { parseArgs } from "@std/cli";
-import { ensureDir } from "@std/fs/ensure-dir";
-import { basename, resolve } from "@std/path";
-import { bold, cyan, green, yellow, red, magenta, blue, gray, reset } from "@std/fmt/colors";
-import { format } from "@std/fmt/duration";
+import { resolve } from "@std/path";
 import { analyzeTrace } from "./analyzer.ts";
-import { type Statistics, type TraceEvent } from "./types.ts";
+import { printTerminalStats } from "./print-stats.ts";
+import type { TraceEvent } from "./types.ts";
 
+/** CLI arguments type */
 interface Args {
-  input?: string;
-  output?: string;
-  help?: boolean;
-  h?: boolean;
+  output: string;
+  help: boolean;
   _: (string | number)[];
 }
 
 // Parse command line arguments
-const args = parseArgs(Deno.args, {
-  string: ["input", "output"],
+const cliArgs = parseArgs(Deno.args, {
+  string: ["output"],
+  boolean: ["help"],
   alias: {
-    i: "input",
-    o: "output",
     h: "help",
+    o: "output",
+  },
+  default: {
+    output: "cli",
+    help: false,
   },
 }) as Args;
 
 // Show help
-if (args.help || args.h) {
+if (cliArgs.help) {
   console.log("TypeScript Build Trace Analyzer");
   console.log("");
   console.log("Usage:");
   console.log(
-    "  deno run main.ts --input=<trace_file> [--output=<output_directory>]",
+    "  ts-tracelytics [input-file-path]     Analyze TypeScript trace file",
+  );
+  console.log("  ts-tracelytics --help               Show this help message");
+  console.log(
+    "  ts-tracelytics --output <format>    Specify output format (json|cli)",
   );
   console.log("");
-  console.log("Options:");
-  console.log("  --input, -i    Path to the TypeScript trace file (required)");
+  console.log("Examples:");
+  console.log("  ts-tracelytics ~/project/trace.json");
   console.log(
-    "  --output, -o   Directory to output statistics file (default: prints to console)",
+    "  ts-tracelytics ~/project/trace.json --output json > stats.json",
   );
-  console.log("  --help, -h     Show this help message");
+  console.log("  ts-tracelytics ~/project/trace.json --output cli");
   Deno.exit(0);
 }
 
-// Check if input file is provided
-if (!args.input) {
-  console.error("Error: Input trace file is required");
+// Validate input file
+if (cliArgs._.length !== 1) {
+  console.error("Error: Please provide exactly one input trace file path");
   console.error("Use --help for usage information");
   Deno.exit(1);
 }
 
-/**
- * Format duration in microseconds to a human-readable format with microsecond precision
- */
-function formatDuration(microseconds: number): string {
-  const millisWithMicrosPrecision = Math.round(microseconds / 1000 * 1000) / 1000;
-  return format(millisWithMicrosPrecision, {
-    style: "narrow",
-    ignoreZero: true
-  });
+// Validate output format
+if (cliArgs.output && !["json", "cli"].includes(cliArgs.output)) {
+  console.error("Error: Output format must be either 'json' or 'cli'");
+  console.error("Use --help for usage information");
+  Deno.exit(1);
 }
 
-/**
- * Formats a key-value table for terminal output
- */
-function formatTable(
-  data: Record<string, { value: string; color?: (str: string) => string }>,
-  title: string,
-): string {
-  const keys = Object.keys(data);
-  const maxKeyLength = Math.max(...keys.map((k) => k.length));
-
-  let output = `\n${title}\n${"=".repeat(title.length)}\n`;
-
-  for (const key of keys) {
-    const { value, color } = data[key];
-    const paddedKey = key.padEnd(maxKeyLength);
-
-    if (color) {
-      output += `${paddedKey}: ${color(value)}${reset("")}\n`;
-    } else {
-      output += `${paddedKey}: ${value}\n`;
-    }
-  }
-
-  return output;
-}
-
-/**
- * Print statistics to the terminal in a readable format
- */
-function printTerminalStats(stats: Statistics): void {
-  // Title
-  console.log(
-    `\n${bold("")}${cyan("TypeScript Build Trace Analysis")}${reset("")}\n`,
-  );
-
-  // Overall statistics
-  const overallStats: Record<string, { value: string; color?: (str: string) => string }> = {
-    "Total build time": {
-      value: formatDuration(stats.totalTime),
-      color: green,
-    },
-    "Total files processed": {
-      value: stats.totalFiles.toString(),
-      color: blue,
-    },
-    "Total unique operations": {
-      value: Object.keys(stats.operationTimes).length.toString(),
-      color: magenta,
-    },
-  };
-
-  console.log(formatTable(overallStats, "Overall Statistics"));
-
-  // Top 5 slowest operations
-  console.log(`\n${bold("")}Top 5 Slowest Operations${reset("")}`);
-  console.log("=======================");
-
-  const sortedOperations = Object.entries(stats.operationTimes)
-    .sort(([, a], [, b]) => b.totalTime - a.totalTime)
-    .slice(0, 5);
-
-  for (const [operation, stats] of sortedOperations) {
-    console.log(`${yellow(operation)}${reset("")}`);
-    console.log(`  Total time: ${formatDuration(stats.totalTime)}`);
-    console.log(`  Count: ${stats.count}`);
-    console.log(`  Average time: ${formatDuration(stats.averageTime)}`);
-    console.log("");
-  }
-
-  // Top 5 slowest files
-  console.log(`\n${bold("")}Top 5 Slowest Files${reset("")}`);
-  console.log("===================");
-
-  for (let i = 0; i < Math.min(5, stats.slowestFiles.length); i++) {
-    const file = stats.slowestFiles[i];
-    const filename = file.path.split("/").pop() || file.path;
-    console.log(
-      `${i + 1}. ${red(filename)}${reset("")} (${
-        formatDuration(file.totalTime)
-      })`,
-    );
-    console.log(`   ${gray(file.path)}${reset("")}`);
-
-    // Top 3 operations for this file
-    const fileOps = Object.entries(file.operations)
-      .sort(([, a], [, b]) => b - a)
-      .slice(0, 3);
-
-    if (fileOps.length > 0) {
-      console.log("   Top operations:");
-      for (const [op, time] of fileOps) {
-        console.log(`     - ${op}: ${formatDuration(time)}`);
-      }
-    }
-    console.log("");
-  }
-
-  // File type statistics
-  const fileTypes = Object.entries(stats.filesByType)
-    .sort(([, a], [, b]) => b - a);
-
-  if (fileTypes.length > 0) {
-    console.log(`\n${bold("")}File Types${reset("")}`);
-    console.log("==========");
-
-    for (const [ext, count] of fileTypes) {
-      console.log(`${blue("." + ext)}${reset("")}: ${count} files`);
-    }
-  }
-
-  // Module resolution
-  if (stats.moduleResolution.totalCount > 0) {
-    const moduleStats: Record<string, { value: string; color?: (str: string) => string }> = {
-      "Total modules resolved": {
-        value: stats.moduleResolution.totalCount.toString(),
-        color: cyan,
-      },
-      "Total resolution time": {
-        value: formatDuration(stats.moduleResolution.totalTime),
-        color: yellow,
-      },
-      "Average resolution time": {
-        value: formatDuration(stats.moduleResolution.averageTime),
-        color: green,
-      },
-    };
-
-    console.log(formatTable(moduleStats, "Module Resolution"));
-  }
-
-  console.log(
-    `\n${gray("Note: All times are approximate. Use `--output` to get detailed statistics as JSON.")}${reset("")}\n`,
-  );
-}
-
+// Do the thing!
 async function main() {
   try {
-    // At this point, args.input is guaranteed to be defined because of the check above
-    const inputPath = resolve(args.input as string);
+    const inputPath = resolve(String(cliArgs._[0]));
 
-    console.log(`Reading trace file: ${inputPath}`);
+    verboseLog(`Reading trace file: ${inputPath}`);
     const traceContent = await Deno.readTextFile(inputPath);
     const traceData = JSON.parse(traceContent) as TraceEvent[];
 
-    console.log("Analyzing trace data...");
+    verboseLog("Analyzing trace data...");
     const statistics = analyzeTrace(traceData);
 
-    // Check if output directory is provided
-    if (args.output) {
-      const outputDir = resolve(args.output);
-
-      // Ensure output directory exists
-      await ensureDir(outputDir);
-
-      // Generate output filename based on input file
-      const inputFileName = basename(inputPath).replace(/\.[^/.]+$/, "");
-      const outputPath = `${outputDir}/${inputFileName}_stats.json`;
-
-      // Write statistics to file
-      await Deno.writeTextFile(
-        outputPath,
-        JSON.stringify(statistics, null, 2),
-      );
-
-      console.log(`Statistics written to: ${outputPath}`);
+    // Output based on format
+    if (cliArgs.output === "json") {
+      console.log(JSON.stringify(statistics, null, 2));
     } else {
-      // Print statistics to terminal in a readable format
       printTerminalStats(statistics);
     }
   } catch (error: unknown) {
@@ -242,3 +92,13 @@ async function main() {
 }
 
 await main();
+
+/**
+ * Print out information to the terminal if the output mode allows it
+ */
+function verboseLog(...args: unknown[]) {
+  // Don't log stuff in JSON mode to avoid malforming the output
+  if (cliArgs.output === "cli") {
+    console.log(...args);
+  }
+}

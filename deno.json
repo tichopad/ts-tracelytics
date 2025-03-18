@@ -2,8 +2,8 @@
   "tasks": {
     "dev": "deno run -A --watch main.ts",
     "analyze": "deno run -A main.ts",
-    "analyze:example": "deno run -A main.ts --input=example_data/trace.json",
-    "analyze:example:json": "deno run -A main.ts --input=example_data/trace.json --output=./.test.output",
+    "analyze:example": "deno run -A main.ts example_data/trace.json",
+    "analyze:example:json": "deno run -A main.ts example_data/trace.json --output json",
     "build": "deno compile --allow-read --output=build/ts-tracelytics main.ts",
     "test": "deno test",
     "check": "deno check main.ts analyzer.ts types.ts"
