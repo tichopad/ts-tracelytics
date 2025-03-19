@@ -1,15 +1,18 @@
 {
+  "name": "@tichopad/ts-tracelytics",
+  "version": "0.0.1",
+  "license": "MIT",
+  "exports": "./main.ts",
   "tasks": {
     "dev": "deno run -A --watch main.ts",
     "analyze": "deno run -A main.ts",
     "analyze:example": "deno run -A main.ts example_data/trace.json",
     "analyze:example:json": "deno run -A main.ts example_data/trace.json --output json",
-    "build": "deno compile --allow-read --output=build/ts-tracelytics main.ts",
-    "test": "deno test",
+    "compile": "deno compile --allow-read --output=build/ts-tracelytics main.ts",
     "check": "deno check main.ts analyzer.ts types.ts"
   },
   "imports": {
-    "@std/fmt": "jsr:@std/fmt@^1.0.6",
+    "@std/fmt": "jsr:@std/fmt@1.0.6",
     "@std/fs": "jsr:@std/fs@1.0.14",
     "@std/cli": "jsr:@std/cli@1.0.14",
     "@std/path": "jsr:@std/path@1.0.8"
