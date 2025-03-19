@@ -14,59 +14,62 @@ tool produces a comprehensive summary of build metrics either as a colorful
 terminal output for quick analysis or in a structured JSON format that can be
 easily consumed by other tools or visualization systems.
 
-## Current Progress
+## Current Implementation
 
-The project has been implemented with the following components:
+The project is implemented with the following components:
 
-1. **CLI Interface**: A command-line interface allowing users to specify input
-   trace files and output destinations.
-2. **Trace Parser**: A system to read and parse trace events from the TypeScript
-   compiler.
-3. **Analyzer**: Logic to process trace events and compute meaningful
-   statistics.
-4. **Terminal Formatter**: Colorful, human-readable output in the terminal for
-   quick analysis.
-5. **JSON Output Generator**: Functionality to output detailed statistics in
-   JSON format.
+1. **CLI Interface**: A command-line interface that accepts a trace file path and optional output format parameter.
+2. **Trace Parser**: Logic to parse and process TypeScript compiler trace events.
+3. **Analyzer Engine**: Core system that processes trace events and computes meaningful statistics.
+4. **Terminal Output Formatter**: Colorful, human-readable output formatting for the console.
+5. **JSON Output Generator**: Structured JSON output for integration with other tools.
 
-The analyzer currently extracts the following key metrics:
+The analyzer extracts the following key metrics:
 
-- Total build time
-- Time spent on different operations (e.g., createProgram, createSourceFile,
-  findSourceFile)
-- Time spent in different categories (e.g., parse, program, bind)
-- Files that took the longest to process
-- File type statistics
-- Module resolution statistics
-- Total number of files processed
+- **Total build time**: Overall duration of the compilation process
+- **Operation timing**: Time spent on different compiler operations (createProgram, typeCheck, etc.)
+- **Category timing**: Time spent in different categories (parse, program, bind)
+- **File processing**: Identifies the slowest files to process with detailed stats
+- **File type analysis**: Categorizes files by type and counts
+- **Module resolution statistics**: Time spent resolving module imports
+- **Overall counts**: Total files processed, operation counts, etc.
 
 ## Architecture
 
-The project follows a modular architecture with the following key components:
+The project follows a modular architecture with these components:
 
 ### 1. Main CLI (`main.ts`)
 
-- Handles command-line argument parsing
-- Orchestrates the overall workflow (read, analyze, output)
-- Provides user feedback
-- Formats and displays terminal output when no output file is specified
+- Parses command-line arguments using `@std/cli`
+- Reads and parses the input trace file
+- Orchestrates the analysis process
+- Handles output format selection (terminal or JSON)
+- Provides user feedback and error handling
 
 ### 2. Type Definitions (`types.ts`)
 
-- Defines interfaces for trace events
-- Defines interfaces for computed statistics
+- Defines TypeScript interfaces for trace events (`TraceEvent`)
+- Defines data structures for computed statistics (`Statistics`, `Operation`, `FileStats`)
 - Ensures type safety throughout the application
 
-### 3. Analyzer (`analyzer.ts`)
+### 3. Analyzer Engine (`analyzer.ts`)
 
-- Contains the core logic for processing trace events
-- Computes various statistics from the trace data
-- Groups and aggregates data by operations, files, and categories
+- Contains the core analysis logic
+- Processes trace events to extract meaningful statistics
+- Handles both complete events (with duration) and begin/end event pairs
+- Computes aggregated metrics across operations, files, and categories
 
-### 4. Data Flow
+### 4. Terminal Formatter (`print-stats.ts`)
+
+- Formats statistics for human-readable terminal output
+- Provides colorful output using `@std/fmt/colors`
+- Creates organized sections for different types of metrics
+- Formats durations in a readable way using `@std/fmt/duration`
+
+### 5. Data Flow
 
 ```
-Input Trace File → Parse JSON → Process Events → Compute Stats → Output (Terminal/JSON)
+Input Trace File → Parse JSON → Process Events (analyzer.ts) → Compute Stats → Output (Terminal/JSON)
 ```
 
 ## Usage
@@ -75,19 +78,30 @@ To analyze a TypeScript build trace:
 
 ```bash
 # Output to terminal (human-readable format)
-deno run main.ts --input=path/to/trace.json
+deno run -A main.ts path/to/trace.json
 
-# Output to JSON file
-deno run main.ts --input=path/to/trace.json --output=path/to/output/dir
+# Output as JSON
+deno run -A main.ts path/to/trace.json --output json
+```
+
+You can also use the predefined tasks in deno.json:
+
+```bash
+# Analyze with terminal output
+deno task analyze example_data/trace.json
+
+# Analyze with JSON output
+deno task analyze example_data/trace.json --output json
 ```
 
 ## Future Enhancements
 
-Potential future improvements include:
+Potential improvements for future development:
 
-1. Visualization of build statistics through HTML reports
-2. Comparison of multiple trace files to track build performance over time
-3. More detailed analysis of specific build phases
-4. Recommendations for optimizing build performance based on analysis
-5. Integration with CI/CD pipelines for automatic build performance monitoring
-6. Support for Project References
+1. **HTML Report Generation**: Create visual reports with charts and graphs for better insights
+2. **Trace Comparison**: Compare multiple trace files to track performance changes over time
+3. **Optimization Recommendations**: Provide specific suggestions to improve build performance
+4. **Codebase Analysis Integration**: Connect trace data with codebase structure analysis
+5. **CI/CD Integration**: Automate build performance monitoring in continuous integration pipelines
+6. **Support for Project References**: Analyze performance of TypeScript project references
+7. **Live Monitoring**: Real-time processing of trace data during compilation

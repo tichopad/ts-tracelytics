@@ -1,15 +1,20 @@
 # ts-tracelytics
 
-A Deno CLI tool to analyze TypeScript build trace files and identify performance
+A Deno CLI tool to analyze Typescript build trace files and identify performance
 bottlenecks.
 
 ## Features
 
-- Parse TypeScript build trace files (generated with `--generateTrace` flag)
-- Calculate total time spent in each compilation phase
-- Identify files and modules that took the longest to process
-- Count the total number of files processed
-- Output statistics in JSON format or as colorful terminal output
+- Parse Typescript (`tsc`) build trace files (generated with `--generateTrace` flag)
+- Calculate build time metrics across various compilation phases
+- Identify slowest operations, files, and module resolutions
+- Categorize files by type and track processing statistics
+- Output data as colorful terminal output or structured JSON
+
+## Motivation
+
+If you need a way to easily get basic statistics about your Typescript builds, this is the thing.
+I'd also recommend checking out the official [`@typescript/analyze-trace` tool](https://www.npmjs.com/package/@typescript/analyze-trace).
 
 ## Installation
 
@@ -17,105 +22,116 @@ This is a Deno application, so you need to have
 [Deno installed](https://deno.land/manual/getting_started/installation) on your
 system.
 
-No additional installation steps are required; you can run the application
-directly with Deno.
+To use ts-tracelytics directly:
+
+```bash
+# Run directly with Deno
+deno run jsr:@tichopad/ts-tracelytics your-trace.json --output json > stats.json
+```
+
+Alternatively, clone the repository and compile:
+
+```bash
+git clone https://github.com/tichopad/ts-tracelytics.git
+cd ts-tracelytics
+deno task compile
+./build/ts-tracelytics your-trace.json
+```
 
 ## Usage
 
 ### Generate a TypeScript Build Trace
 
-First, you need to generate a trace file from your TypeScript build:
+First, generate a trace file from your TypeScript build:
 
 ```bash
-npx tsc --generateTrace trace_output_dir
+tsc --generateTrace trace_output_dir
 ```
 
-This will create a `trace.json` file in the specified directory.
+This creates a `trace.json` file in the specified directory.
 
 ### Analyze the Trace
 
-Then, use ts-tracelytics to analyze the trace:
+Analyze your trace file:
 
 ```bash
-# Output to terminal (colorful, formatted output)
-deno run main.ts --input=path/to/trace.json
+# Output to terminal (human-readable format)
+deno run jsr:@tichopad/ts-tracelytics trace.json
 
-# Output to JSON file
-deno run main.ts --input=path/to/trace.json --output=./output
+# Output as JSON
+deno run jsr:@tichopad/ts-tracelytics trace.json --output json > stats.json
 ```
 
-Or use the predefined tasks:
+### Command Line Options
 
-```bash
-# Display in terminal
-deno task analyze --input=path/to/trace.json
-
-# Save to JSON file
-deno task analyze --input=path/to/trace.json --output=./output
-```
-
-### Options
-
-- `--input`, `-i`: Path to the TypeScript trace file (required)
-- `--output`, `-o`: Directory to output statistics file (optional, if not
-  provided, prints to console)
+- Input file path: First positional argument (required)
+- `--output`, `-o`: Output format (`json` or `cli`, default: `cli`)
 - `--help`, `-h`: Show help information
 
-## Example
-
-Analyze the example trace file and display in terminal:
-
-```bash
-deno task analyze:example
-```
-
-This will analyze the example trace file in `example_data/trace.json` and
-either:
-
-- Print a formatted analysis to the terminal (default)
-- Output the statistics to `./output/trace_stats.json` if the `--output` flag is
-  provided
-
-## Output
+## Output Examples
 
 ### Terminal Output (Default)
 
-When no `--output` flag is specified, the tool displays a colorful, formatted
-analysis in the terminal, including:
+The default terminal output provides a formatted analysis including:
 
-- Overall build statistics
+- Overall build statistics (total time, files processed)
 - Top 5 slowest operations with timing details
 - Top 5 slowest files with their primary operations
 - File type distribution
 - Module resolution statistics
 
-This format is designed for quick analysis and diagnosis of build performance
-issues.
+Example:
+```
+TypeScript Build Trace Analysis
+
+Overall Statistics
+=================
+Total build time: 2s 345ms
+Total files processed: 128
+Total unique operations: 15
+
+Top 5 Slowest Operations
+=======================
+createProgram
+  Total time: 1s 234ms
+  Count: 1
+  Average time: 1s 234ms
+
+typeCheck
+  Total time: 563ms
+  Count: 128
+  Average time: 4.4ms
+
+...
+```
 
 ### JSON Output
 
-When the `--output` flag is specified, the tool generates a JSON file with
-detailed statistics:
+When using `--output json`, the tool generates corresponding statistics as structured JSON:
 
-- Total build time
-- Time spent on each operation type (createProgram, createSourceFile, etc.)
-- Time spent in each category (parse, program, bind, etc.)
-- List of the 10 slowest files with detailed timing information
-- File type statistics
-- Module resolution statistics
-- Total number of files processed
-
-This format is suitable for further processing or integration with other tools.
-
-## Development
-
-### Available tasks
-
-- `deno task dev`: Run the application in watch mode
-- `deno task analyze`: Run the application
-- `deno task analyze:example`: Analyze the example trace file
-- `deno task test`: Run tests
-- `deno task check`: Type-check the code
+```json
+{
+  "totalTime": 2345678,
+  "totalFiles": 128,
+  "operationTimes": {
+    "createProgram": {
+      "totalTime": 1234567,
+      "count": 1,
+      "averageTime": 1234567
+    },
+    "typeCheck": {
+      "totalTime": 563200,
+      "count": 128,
+      "averageTime": 4400
+    },
+    ...
+  },
+  "categoryTimes": { ... },
+  "slowestFiles": [ ... ],
+  "filesByType": { ... },
+  "moduleResolution": { ... }
+}
+```
 
 ## License
 
